@@ -1,0 +1,370 @@
+body, textarea {
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat", arial, Helvetica;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background: #232a31;
+    padding: 0 2em;
+   
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+
+
+
+.navbar-items {
+  list-style: none;  
+   position: absolute; 
+   display:inline-block;
+    height: 80px;  
+    line-height: 80px;
+    right: 0;
+    margin: 0;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items li a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 1s;   
+}
+
+.navbar-items li a:hover {
+color: #CCC;
+} 
+
+.default-btn {
+    padding: 15px 25px;
+    color: #fff;
+    background: #2cc76a;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.default-btn:hover {
+    background-color: #22bb5f;
+    color: #ccc;
+}
+
+/* Main Banner*/
+
+.main-banner {
+    background-image: url(../img/mainbanner.png); 
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+    padding: 10em 0;
+    position: relative;
+    
+}
+
+.main-banner h1, .main-banner p  {
+   
+    color: #fff;
+    text-align: center;
+    font-weight: bold;   
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
+}
+
+.specialties-container {
+    padding: 5em 0;
+}
+
+.specialties-container ul {
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.specialties-container ul li {
+    list-style: none;
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt {
+    color: #2cc76a;
+}
+
+.fa-rocket {
+    color: #ef3f29;
+}
+
+.fa-comments {
+    color: #ef8f29;
+}
+
+.specialties-container ul li h3 {
+    margin-bottom: 25px;
+}
+
+.specialties-container ul li p {
+    line-height:24px;
+}
+
+.pricing-container {
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.pricing-container h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan {
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    background-color: #e8e9ea;
+    color:#333;
+    height: 50px;
+    line-height: 50px;
+}
+
+.plan .price {
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    text-align: center;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background-color: #2cc762;
+    margin-bottom: -50px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #202b34;
+    color: #fff;
+}
+
+.plan .plan-btn {
+    background-color: #2cc762;
+    color: #fff;
+    height: 75px;
+    text-align: center;
+    line-height:75px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 1s all;
+}
+
+.plan .plan-btn:hover {
+    background-color: #035a21af;
+}
+
+.plan .recommended {
+    background: #f45c57;
+}
+
+.plan .btn-recommended {
+    background: #f45c57;
+}
+
+
+
+.searchdomain-container {
+    background-color: #34454e;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.searchdomain-container h2 {
+    color: white;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type=text] {
+ margin-bottom: 25px;
+ width: 60%;
+ padding: 20px;
+ font-size: 20px;
+ outline: none;
+}
+
+
+.searchdomain-container input[type=submit] {
+  background-color: #2cc76a;
+  border: 1px solid #2cc76a;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 1s all ease-in-out;
+   }
+
+.searchdomain-container input[type=submit]:hover {
+    color: #2cc76a;
+    background-color: #34454e;
+
+}
+
+
+.contact-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom:2em; 
+}   
+
+.contact-container h2 {
+    font-size:36px;
+}
+
+.contact-container p {
+    font-style: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.contact-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+    outline: none;
+}
+
+.contact-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
